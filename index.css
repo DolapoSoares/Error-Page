@@ -1,0 +1,53 @@
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.Error{
+    font-weight:bolder;
+    padding: 0.5%;
+    margin-left: auto;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: 13%;
+}
+.text{
+    margin-left: 10%;
+}
+.text h1{
+    font-weight: bold;
+    font-size: 64px;
+    width: 80%;
+    letter-spacing: 5px;
+}
+.text p{
+    font-size: larger;
+    width: 30%;
+    margin-bottom: 50px;
+}
+button{
+    padding: 20px;
+    background-color: rgb(44, 39, 39);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(212, 212, 203);
+}
+
+/*@media only screen and (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+       
+  }
+}*/
